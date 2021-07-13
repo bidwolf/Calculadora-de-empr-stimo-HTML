@@ -101,10 +101,10 @@ function chart(principal, juros, mensalidade, pagamentos) {
         g.lineTo(paymentToX(index), montanteToY(bal));
 
     }
+    //cria uma linha no gráfico canvas que representa o equity do empréstimo
     g.lineWidth = 3;
     g.stroke();
     g.fillStyle = "black";
-    g.f
     g.fillText("Balanço do empréstimo", 20, 50);
     g.textAlign = "center";
     var y = montanteToY(0);
